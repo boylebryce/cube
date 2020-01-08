@@ -2,7 +2,9 @@
 Timer for turn-based games such as board games
 
 ## About
-This is a little JavaScript application that works similar to the [DGT Cube 6-Player Game Timer](http://www.digitalgametechnology.com/index.php/products/clocks1/227-dgt-cube). The application cycles through timers with different background colors (players) if any are set. It counts up to the maximum time, if set, and alerts the user when the maximum time is reached. It can also be used without adding any players, if you just need a quick timer that counts up. There is also an option (off by default) to play a sound effect when the timer is up.
+This is a little JavaScript application that works similar to the [DGT Cube 6-Player Game Timer](http://www.digitalgametechnology.com/index.php/products/clocks1/227-dgt-cube). I wrote it both as an exercise to learn some basic JavaScript, and to address some of my frustrations with the DGT Cube, such as having to remember which side to flip it to for the next player's turn.
+
+The application cycles through timers with different background colors (players) if any are set. It counts up to the maximum time, if set, and alerts the user when the maximum time is reached. It can also be used without adding any players, if you just need a quick timer that counts up. There is also an option (off by default) to play a sound effect when the timer is up.
 
 You can see it in action on my personal page [here](https://boylebryce.com/cube).
 
