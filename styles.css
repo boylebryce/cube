@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: monospace;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+#main {
+    height: 90%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#timer-display {
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px;
+}
+
+#timer-control {
+    height: 10%;
+    width: 100%;
+    display: flex;
+}
+
+#timer-control button {
+    height: 100%;
+    width: 15%;
+    -webkit-appearance: none;
+}
+
+#timer-max {
+    width: 30%;
+}
+
+#options {
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#alert {
+    cursor: pointer;
+}
+
+#select-color {
+    display: none;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.color-option {
+    height: 100%;
+}
+
+#players {
+    display: none;
+    height: 5%;
+    width: 100%;
+}
+
+.player {
+    height: 100%;
+    width: 100%;
+}

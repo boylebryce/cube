@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CUBE</title>
+        <script async type="text/javascript" src="scripts.js"></script>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div id="main">
+            <h1 id="timer-display">Click or tap anywhere to start the timer</h1>
+        </div>
+        <div id="timer-control">
+            <button id="start-button">Start</button>
+            <button id="pause-button">Pause</button>
+            <button id="reset-button">Reset</button>
+            <input id="timer-max" type="number" placeholder="Time limit in seconds">
+            <button id="add-player">Add player</button>
+            <div id="options">
+                <div id="alert">
+                    <input id="alert-input" type="checkbox" name="alert-input">
+                    <label for="alert-input">Enable sound alert</label>
+                </div>
+                <!--
+                <div id="hide">
+                    <input id="hide-input" type="checkbox" name="hide-input">
+                    <label for="hide-input">Hide controls</label>
+                </div>
+                -->
+            </div>
+        </div>
+        <div id="players">
+        </div>
+        <div id="select-color">
+        </div>
+    </body>
+</html>
