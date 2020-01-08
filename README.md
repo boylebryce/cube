@@ -11,8 +11,8 @@ To add players, click or tap the `Add player` button in the control bar and sele
 
 Check the `Enable sound alert` to make the timer play a "ding" sound effect when the timer reaches the time limit.
 
-Plans for the future:
- [ ] Add an optional name field to player colors that displays when their timer is running
- [ ] Add an option to have the timer count down from the user-set maximum time, instead of counting up from zero
- [ ] Replace player color selection menu with a color wheel to allow for more customization
- [ ] Add the ability to save and load timer setups (players, time limit, any future options)
+## Planned updates
+- [ ] Add an optional name field to player colors that displays when their timer is running
+- [ ] Add an option to have the timer count down from the user-set maximum time, instead of counting up from zero
+- [ ] Replace player color selection menu with a color wheel to allow for more customization
+- [ ] Add the ability to save and load timer setups (players, time limit, any future options)
