@@ -151,6 +151,8 @@ function init() {
 
     const alertOption = document.querySelector('#alert');
     alertOption.addEventListener('click', function() {
+
+        // allow sound effect on iOS
         if (!soundAlert.src) {
             soundAlert.play();
             soundAlert.src = 'sounds/ding.mp3';
